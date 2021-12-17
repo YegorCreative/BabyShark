@@ -46,9 +46,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 25px;position: relative;
 }
 .logoQ{
    margin-top: 20px;
     box-sizing: border-box;
+position: absolute;
+left: 20px;
+top: 20px;
 }
