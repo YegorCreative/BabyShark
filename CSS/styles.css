@@ -225,7 +225,7 @@ line-height: 20px;
 .chum img{
   margin: 20px;
 }
-footer, .footM{
+footer{
   width:100%;
   box-sizing: border-box;
   background-color: #E2F1F2;
@@ -233,12 +233,13 @@ footer, .footM{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .footMe{
   max-width: 650px;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 20px;
   flex-wrap: wrap;
@@ -268,4 +269,21 @@ footer p{
   width: 100%;
   padding: 15px;
   background-color:  #E2F1F2;
+}
+.socialMedia2{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet{
+  padding: 15px;
+  background-color: #3593BD;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 15px;
 }
