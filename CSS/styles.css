@@ -133,7 +133,7 @@ top: 20px;
 .moveCloser{
   margin-left: -90px;
 }
-.theRoadMap{
+.theRoadMap, .theTeam, .joinCommunity{
   width: 100%;
   box-sizing: border-box;
   background-color: var(--main-color2);
@@ -179,4 +179,49 @@ top: 20px;
 .letsSteel{
   width: 310px;
   text-align: left;
+}
+.theTeam{
+  background-color: #E2F1F2;
+}
+.justFour, .justOne{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+.justOne{
+ width: 320px;
+ padding: 20px;
+ transition: all .1s ease-in-out;
+}
+.justOne:hover{
+  transform: scale(1.06);
+}
+.singlePicture{
+position: absolute;
+top: 40px;
+text-align: center;
+color: white;
+line-height: 20px;
+}
+.joinCommunity{
+  background-color: #3593BD;
+}
+.joinCommunity h1{
+  color: white;
+}
+.chum{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.chum img{
+  margin: 20px;
 }
