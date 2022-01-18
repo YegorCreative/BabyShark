@@ -12,6 +12,9 @@
     .moveCloser{
         margin-left: 0px;
       }
+      .joinCommunity h1{
+          text-align: center;
+      }
 }
 @media screen and (max-width: 815px){
     .lldMain{

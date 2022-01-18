@@ -238,7 +238,7 @@ footer{
 }
 .footMe{
   max-width: 650px;
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
