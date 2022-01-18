@@ -1,0 +1,9 @@
+@media screen and (min-width:1050px){
+    
+    .sideShark{
+        width: 50%;
+    }
+    .twoEnd{
+        flex-direction: column;
+    }
+}
