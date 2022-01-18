@@ -6,4 +6,18 @@
     .twoEnd{
         flex-direction: column;
     }
+    
+}
+@media screen and (max-width:1041px){
+    .moveCloser{
+        margin-left: 0px;
+      }
+}
+@media screen and (max-width: 815px){
+    .lldMain{
+        background-image: url(../Assets/Banner-Animation.png);
+    }
+    footer{
+        justify-content: center;
+    }
 }
