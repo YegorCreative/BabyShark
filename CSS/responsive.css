@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 815px){
     .lldMain{
-        background-image: url(../Assets/Banner-Animation.png);
+        background-image: url(../Assets/BannerAnimation_MOBILE.gif);
     }
     footer{
         justify-content: center;
